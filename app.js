@@ -28,79 +28,13 @@ for (var i = 0; i < location.length; i++) {
   )
 };
 
+CookieStand();
 
 
-
-// var firstAndPike = {
-//   minCust: 23,
-//   maxCust: 65,
-//   avgSale: 6.3,
-//   randomNumGen: function(minCust, maxCust) {
+//
+// randomNumGen: function(minCust, maxCust) {
 //     return Math.floor(Math.random() * (this.maxCust - this.minCust)) + this.minCust;
 //   }
 // };
 //
 // firstAndPike.randomNumGen() * firstAndPike.avgSale;
-//
-// firstAndPike.details();
-//
-// var seaTac = {
-//   minCust: 3,
-//   maxCust: 24,
-//   avgSale: 1.2,
-//   details: function(minCust, maxCust) {
-//     return Math.floor(Math.random() * (this.maxCust - this.minCust)) + this.minCust;
-//   }
-// };
-//
-// seaTac.details();
-//
-// var seattleCenter = {
-//   minCust: 11,
-//   maxCust: 38,
-//   avgSale: 3.7,
-//   details: function(minCust, maxCust) {
-//     return Math.floor(Math.random() * (this.maxCust - this.minCust)) + this.minCust;
-//   }
-// };
-//
-// seattleCenter.details();
-//
-// var capitalHill = {
-//   minCust: 20,
-//   maxCust: 38,
-//   avgSale: 2.3,
-//   details: function(minCust, maxCust) {
-//     return Math.floor(Math.random() * (this.maxCust - this.minCust)) + this.minCust;
-//   }
-// };
-//
-// capitalHill.details();
-//
-// var alki = {
-//   minCust: 2,
-//   maxCust: 16,
-//   avgSale: 4.6,
-//   details: function(minCust, maxCust) {
-//     return Math.floor(Math.random() * (this.maxCust - this.minCust)) + this.minCust;
-//   }
-// };
-//
-// alki.details();
-//
-//
-//
-//
-//
-// // PART ONE
-// // 1 - create container element in memory
-// // 2 - add HTML to container and add content using the details method on the brian object
-// // 3 - add newly created HTML to the DOM
-//
-// // PART TWO
-// // 1 - create an UL container in memory
-// // 2 - create an empty array for later use - used to create a new array of elements
-// // 3 - created a for loop to grab all items in the hobbies array, create a list item of each, then push that to our empty array for later use
-// // 4 - took our once empty array - now filled with elements - and made them a single string by joining each item together - using the join method
-// // 5 - add our new string of elements to our UL container that is saved in memory
-// // 6 - append our UL that is saved in memory to the DOM
