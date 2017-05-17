@@ -10,3 +10,12 @@ body {
 p {
   font-family: 'pacifico',cursive;
 }
+
+thead {
+  background: #555;
+}
+
+td {
+  padding: 20px;
+  border: solid 1px black;
+}
